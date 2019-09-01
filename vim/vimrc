@@ -18,7 +18,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 let skip_defaults_vim=1
 
-set background=light	"设置背景为亮色,这里可以先不设置,可以暂时保持和terminal的色调相同
+set nocompatible      "设置vim不兼容vi的键盘模式
 
 "colorscheme molokai	"设置颜色主题为molokai,前提是你安装了molokai主题
 "git clone https://github.com/tomasr/molokai.git
@@ -26,15 +26,12 @@ set background=light	"设置背景为亮色,这里可以先不设置,可以暂�
 "mv molokai.vim ~/.vim/colors/
 "vim ~/.vimrc
 
-set wildmenu          "use menu for command line completion
+set background=light    "设置背景为亮色,这里可以先不设置,可以暂时保持和terminal的色调相同
 
+set wildmenu          "use menu for command line completion
 set magic             "changes special characters in search patterns
 set wrap              "long lines wrap and continue on the next line
-
-set nocompatible      "设置vim不兼容vi的键盘模式
-
-set paste           "allow pasting text
-set magic           "changes special characters in search patterns
+set paste             "allow pasting text
 
 set backspace=2       "等同于set backspace=indent,eol,start
                       "设置backspace或者del键的工作模式，默认是vi兼容的
@@ -46,7 +43,7 @@ set backspace=2       "等同于set backspace=indent,eol,start
 
 "set expandtab         "Tab键转换为空格
 
-set autoindent        "设置自动缩进，当你新开一行的时候将会使用当上一行的缩进
+"set autoindent        "设置自动缩进，当你新开一行的时候将会使用当上一行的缩进
                       "CR，o，O都适用
                       "CR 指回车
                       "o  指向下插入一行
