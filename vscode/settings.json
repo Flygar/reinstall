@@ -1,1 +1,30 @@
-/Users/zhuyitou/Library/Application Support/Code/User/settings.json
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.experimentalUseTitleEvent": true,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.macOptionIsMeta": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goimports",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "markdown.preview.fontSize": 16,
+    "markdownFormatter.displayTime": true,
+    "[markdown]": {
+        // 快速补全
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+    }
+}
