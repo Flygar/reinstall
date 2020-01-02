@@ -1,5 +1,6 @@
 {
     // workbench
+    // "http.proxy": "192.168.0.100:1087",
     "workbench.colorTheme": "Solarized Dark",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "left",
@@ -37,7 +38,7 @@
             "strings": true
         },
     },
-    // Plugin: golang
+    // Plugin: golang. 使用快捷键：command+shift+P，然后键入：go:install/update tools
     "go.formatTool": "goimports",
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.autocompleteUnimportedPackages": true,
