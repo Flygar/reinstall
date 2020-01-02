@@ -65,7 +65,7 @@ set autochdir         "自动切换当前目录为编辑文件所在的目录
                       "就得指定位置，比如tabe ~/.vimrc
                       "那么直接tabe .vimrc即可
 
-"set noignorecase      "不忽略大小写
+"set noignorecase      "搜索时不忽略大小写
 set ignorecase         "忽略大小写
 
 set hlsearch          "设置搜索结果高亮，这可能在你搜索了以后一直高亮
@@ -121,6 +121,7 @@ set ruler            "显示当前光标所在的行与列的信息
 "set fileencoding=utf-8                      "本文件进行保存操作的时候将本文件设置为此选项对于的编码
 "set encoding=utf-8                          "vim内部使用的编码，显示消息什么的就会用这个编码
 "set termencoding=utf-8                      "告诉vim你目前使用的terminal是什么编码
+
 
 ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 " 以下配置删掉，需要用到再设置

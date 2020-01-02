@@ -1,0 +1,27 @@
+# 第一次登陆输入密码后，第二次登陆就不需要密码了。每次登陆，会在~/.ssh中建立一个soket文件，下次用相同用户名，端口，主机名进行连接就会自动复用.
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/%h-%p-%r
+    ControlPersist yes
+Host node1 
+    User root
+    Hostname xxxxxx
+    LocalForward 127.0.0.1:9200 127.0.0.1:9200
+    LocalForward 127.0.0.1:27017 127.0.0.1:27017
+Host vpn
+    User root
+    Hostname xxxxxxx
+    Port 22
+    IdentityFile ~/.ssh/id_rsa
+Host k8s-master
+    User root
+    Hostname xxxxxxxx
+Host zwy-proxy ${IP_1}
+    User jump
+    Hostname ${IP_1}
+    Port 22
+Host zwyk8s
+    User root
+    Hostname ${IP_2}
+    Port 22
+    ProxyCommand ssh -q -W %h:%p zwy-proxy

@@ -1,22 +1,32 @@
 {
+    // workbench
     "workbench.colorTheme": "Solarized Dark",
-    "editor.wordWrap": "wordWrapColumn",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "welcomePage",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "window.zoomLevel": 0,
+    // editor
     "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
     "editor.minimap.enabled": false,
+    // terminal
     "terminal.integrated.confirmOnExit": true,
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
-    "terminal.integrated.experimentalUseTitleEvent": true,
-    "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.macOptionIsMeta": true,
-    "go.autocompleteUnimportedPackages": true,
-    "go.formatTool": "goimports",
-    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.scrollback": 10000,
+    // zenmode
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": true,
+    // markdown
     "markdown.preview.fontSize": 16,
     "markdownFormatter.displayTime": true,
     "[markdown]": {
@@ -26,5 +36,18 @@
             "comments": true,
             "strings": true
         },
-    }
+    },
+    // Plugin: golang
+    "go.formatTool": "goimports",
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintFlags": [
+        "\"--disable=all\", \"--enable=errcheck\""
+    ],
+    // Plugin: gitlens
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers"
+    ]
 }
