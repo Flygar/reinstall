@@ -1,0 +1,24 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+# Distributed revision control system
+brew "git"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# UNIX shell (command interpreter)
+brew "zsh"
+cask "spotify"
+cask "wechat"
+cask "iterm2"
+cask "setapp"
+cask "google-chrome"
+cask "visual-studio-code"
+cask "shadowsocksx-ng"
+cask "docker"
+cask "neteasemusic"

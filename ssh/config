@@ -8,12 +8,12 @@ Host node1
     Hostname xxxxxx
     LocalForward 127.0.0.1:9200 127.0.0.1:9200
     LocalForward 127.0.0.1:27017 127.0.0.1:27017
-Host vpn
+Host vpn name2
     User root
     Hostname xxxxxxx
     Port 22
     IdentityFile ~/.ssh/id_rsa
-Host k8s-master
+Host k8s-master 
     User root
     Hostname xxxxxxxx
 Host zwy-proxy ${IP_1}
