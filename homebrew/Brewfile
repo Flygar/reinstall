@@ -5,12 +5,18 @@ tap "homebrew/core"
 brew "bat"
 # Distributed revision control system
 brew "git"
+# Open GitHub webpages from a terminal
+brew "git-open"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Configurable static site generator
+brew "hugo"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
-# Terminal multiplexer
-brew "tmux"
+# Port scanning utility for large networks
+brew "nmap"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Vi 'workalike' with many additional features
@@ -30,4 +36,4 @@ cask "neteasemusic"
 cask "setapp"
 cask "spotify"
 cask "visual-studio-code"
-cask "shadowsocksx-ng"
+cask "vnc-viewer"
