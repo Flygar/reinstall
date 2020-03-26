@@ -18,6 +18,6 @@ brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 # 安装 mas, 没从 app store 下载软件就别装
 # brew install mas
 
-# 批量安装软件 
+# 批量安装软件 ,收sdsdasdsdsd
 brew bundle --file="~/Desktop/Brewfile"
 ```

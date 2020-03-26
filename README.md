@@ -4,6 +4,7 @@
 ![](mdPic/brewPic1.png)
 
 ### 配置文件
+- tmux
 - vscode 通过「settings Sync」 插件备份同步
 - iterm2 导出 profile.json
 - k8s kube config
@@ -11,3 +12,4 @@
 - transmit config
 - SwitchyOmega config
 - vim config
+- zsh 和 oh-my-zsh

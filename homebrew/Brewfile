@@ -17,6 +17,8 @@ brew "kubernetes-cli"
 brew "nmap"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Terminal multiplexer
+brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Vi 'workalike' with many additional features
