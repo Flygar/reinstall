@@ -5,8 +5,6 @@ tap "homebrew/core"
 brew "bat"
 # Distributed revision control system
 brew "git"
-# Open GitHub webpages from a terminal
-brew "git-open"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Configurable static site generator

@@ -18,6 +18,20 @@ brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 # 安装 mas, 没从 app store 下载软件就别装
 # brew install mas
 
-# 批量安装软件 ,收sdsdasdsdsd
+# 批量安装软件
 brew bundle --file="~/Desktop/Brewfile"
+```
+
+## 常用命令说明
+```sh
+# 单行显示已安装的软件包
+brew cask list -1
+# 显示可更新的软件包
+brew cask outdated
+# 更新过期的软件包
+brew cask upgrade
+# 软件包的安装与卸载
+brew cask install setapp
+brew cask uninstall setapp
+brew cask reinstall setapp
 ```
