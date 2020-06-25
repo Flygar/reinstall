@@ -20,6 +20,7 @@ brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 
 # 批量安装软件
 brew bundle --file="~/Desktop/Brewfile"
+# setapp这个软件安装貌似有问题，建议手动重装
 ```
 
 ## 常用命令说明
