@@ -16,5 +16,9 @@
 - [ ] [transmit]()
 - [ ] [SwitchyOmega]()
 
-### TODO
+## github config
+[Connecting to GitHub with SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+
+## TODO
 - [ ] 搞成自动化脚本
