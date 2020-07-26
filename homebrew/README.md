@@ -1,4 +1,6 @@
-## 利用 homebrew-bundle 备份
+# homebrew-bundle
+
+## 备份
 
 ```sh
 # 执行 brew bundle dump 备份命令 
@@ -11,7 +13,8 @@ brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 
 ```
 
-## 利用 homebrew-bundle 恢复
+## 恢复
+
 ```sh
 # 安装 Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -25,6 +28,10 @@ brew bundle --file="~/Desktop/Brewfile"
 
 ## 常用命令说明
 ```sh
+# 搜索软件
+brew search docker
+# 显示产品信息
+brew info docker
 # 单行显示已安装的软件包
 brew cask list -1
 # 显示可更新的软件包

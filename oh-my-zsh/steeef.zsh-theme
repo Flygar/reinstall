@@ -101,5 +101,5 @@ add-zsh-hook precmd steeef_precmd
 # PROMPT=$'%{$purple%}zhutou${PR_RST} at %{$orange%}Earth${PR_RST} in %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
 # >>> '
 
-PROMPT=$'%{$purple%}zhutou${PR_RST} in %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
+PROMPT=$'%{$purple%}zhutou${PR_RST} at local in %{$limegreen%}%~${PR_RST} $vcs_info_msg_0_$(virtualenv_info)
 >>> '

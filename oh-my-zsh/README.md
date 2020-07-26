@@ -16,7 +16,8 @@ cp ~/.zshrc oh-my-zsh/.zshrc
 
 # 还原
 cp oh-my-zsh/.zshrc ~/.zshrc
-# 插件：
+
+# 插件：zsh-autosuggestions
 # GitHub：https://github.com/zsh-users/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # 插件：zsh-syntax-highlighting

@@ -1,7 +1,8 @@
 ## 备份
 ```sh
 # 注意密钥安全，禁止上传
-tar -zcvf sshConfig.tar.gz ~/.ssh/
+cd ~
+tar -zcvf sshConfig.tar.gz .ssh/
 ```
 
 ## 恢复

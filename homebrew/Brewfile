@@ -9,8 +9,6 @@ brew "git"
 brew "go"
 # Configurable static site generator
 brew "hugo"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Port scanning utility for large networks
 brew "nmap"
 # Command-line interface for https://speedtest.net bandwidth tests
@@ -25,11 +23,9 @@ brew "vim"
 brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
-cask "docker"
 cask "google-chrome"
-cask "iterm2"
-cask "neteasemusic"
 cask "setapp"
 cask "spotify"
+cask "telegram"
 cask "visual-studio-code"
 cask "vnc-viewer"

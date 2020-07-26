@@ -101,4 +101,5 @@ export LC_ALL="en_US.UTF-8"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export TERM="xterm-256color"
-# export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+test -e /Users/zhutou/.iterm2_shell_integration.zsh && source /Users/zhutou/.iterm2_shell_integration.zsh || true

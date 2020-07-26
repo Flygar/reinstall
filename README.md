@@ -1,24 +1,66 @@
-## 重装macOS
-想要一个比 Time Machina 备份更 "干净" 的系统。  
-设置三指拖移，缩放更多空间，夜览。
+# Dotfiles
+配置文件
 
-### 利用 [homebrew bundle](homebrew/README.md) 优雅的备份与恢复软件
-![](image/brewPic1.png)
+## macOS
+### 利用 [homebrew bundle](homebrew/README.md) 备份与恢复软件
+`brew cask list -1`
+- Casks
+  - dingtalk
+  - google-chrome
+  - setapp
+  - spotify
+  - telegram
+  - termius
+  - visual-studio-code
+  - vnc-viewer
+  - wechat
+  
+`brew leaves`
+- Formulae
+  - bat
+  - git
+  - go
+  - hugo
+  - mtr
+  - nmap
+  - speedtest-cli
+  - tmux
+  - tree
+  - vim
+  - wget
+  - zsh
 
-### dotfiles
-- [x] [tmux](tmux/README.md)
+### Checklist
 - [x] [vscode Settings Sync](vscode/README.md)
-- [x] [iterm2](iterm2/README.md)
-- [x] [oh-my-zsh](oh-my-zsh/README.md)
+- [x] [tmux](tmux/README.md)
 - [x] [ssh config](ssh/README.md)
+- [x] [oh-my-zsh](oh-my-zsh/README.md)
 - [x] [vim config](vim/README.md)
-- [ ] [k8s kube config]()
-- [ ] [transmit]()
-- [ ] [SwitchyOmega]()
 
-## github config
-[Connecting to GitHub with SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+### System Preference
+- **Trackpad**
+  - Three fingers drag
+  - Three fingers tap
+- **Displays**
+  - Display-Scaled-MoreSpace
+  - Night Shift
 
-2222
-## TODO
-- [ ] 搞成自动化脚本
+## App
+### [Setapp](https://setapp.com/)
+- CleanShot X
+- BetterZip
+- Movist Pro
+- KeyKey Typing Tutor
+- TablePlus
+- AnyTrans for ios
+- Lacona
+- CleanMyMac X
+- Paw
+- Downie
+
+### Others
+- Docker for Mac: [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/) 
+- ShadowsocksX-NG: [https://github.com/shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG)
+- Office: [https://stores.office.com/myaccount/home.aspx#install](https://stores.office.com/myaccount/home.aspx#install)
+- Typora: [https://typora.io](https://typora.io) 
+- Alfred: [https://www.alfredapp.com](https://www.alfredapp.com)
