@@ -5,6 +5,9 @@ https://github.com/gpakosz/.tmux
 拷贝 `~/.tmux.conf.local` 文件
 ```sh
 cd dotfiles
+
+# code -d ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/.tmux.conf.local 
+
 cp ~/.tmux.conf.local tmux/
 ```
 

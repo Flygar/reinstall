@@ -14,6 +14,8 @@
   - visual-studio-code
   - vnc-viewer
   - wechat
+  - wireshark
+  - spotify
   
 `brew leaves`
 - Formulae
@@ -29,6 +31,7 @@
   - vim
   - wget
   - zsh
+  - watch
 
 ### Checklist
 - [x] [vscode Settings Sync](vscode/README.md)
@@ -53,10 +56,10 @@
 - KeyKey Typing Tutor
 - TablePlus
 - AnyTrans for ios
-- Lacona
 - CleanMyMac X
 - Paw
 - Downie
+- swish
 
 ### Others
 - Docker for Mac: [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/) 

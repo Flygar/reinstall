@@ -3,6 +3,8 @@
 # 注意密钥安全，禁止上传
 cd ~
 tar -zcvf sshConfig.tar.gz .ssh/
+mv sshConfig.tar.gz ~/Desktop 
+cd ~/Desktop/dotfiles/
 ```
 
 ## 恢复
