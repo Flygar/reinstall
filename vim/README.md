@@ -10,5 +10,5 @@ https://github.com/amix/vimrc
 
 ## 恢复
 ```sh
-
+cp vim/.vimrc ~/
 ```

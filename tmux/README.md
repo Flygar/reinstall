@@ -17,7 +17,7 @@ cd ~
 git clone https://github.com/gpakosz/.tmux.git
 ln -s -f .tmux/.tmux.conf
 
-# 回到home目录将配置文件拷贝过来
-cd -
+# 回到dotfile目录将配置文件拷贝过来
+cd dotfile
 cp tmux/.tmux.conf.local  ~/
 ```
