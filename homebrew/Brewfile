@@ -24,8 +24,6 @@ brew "wget"
 # UNIX shell (command interpreter)
 brew "zsh"
 cask "google-chrome"
-cask "setapp"
 cask "spotify"
 cask "telegram"
 cask "visual-studio-code"
-cask "vnc-viewer"

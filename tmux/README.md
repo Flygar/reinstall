@@ -2,22 +2,20 @@
 https://github.com/gpakosz/.tmux
 
 ## 备份
-拷贝 `~/.tmux.conf.local` 文件
 ```sh
-cd dotfiles
+# 对比文件
+code -d ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/.tmux.conf.local 
 
-# code -d ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/.tmux.conf.local 
-
-cp ~/.tmux.conf.local tmux/
+# 备份
+cp ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/
 ```
 
 ## 恢复
 ```sh
-cd ~
-git clone https://github.com/gpakosz/.tmux.git
+# clone至home目录
+git clone https://github.com/gpakosz/.tmux.git ~
 ln -s -f .tmux/.tmux.conf
 
 # 回到dotfile目录将配置文件拷贝过来
-cd dotfile
-cp tmux/.tmux.conf.local  ~/
+cp  ~/Desktop/dotfiles/tmux/.tmux.conf.local  ~/
 ```

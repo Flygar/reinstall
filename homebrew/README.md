@@ -22,7 +22,7 @@ brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 # brew install mas
 
 # 批量安装软件
-brew bundle --file="~/Desktop/Brewfile"
+brew bundle --file="~/Desktop/dotfiles/homebrew/Brewfile"
 # setapp这个软件安装貌似有问题，建议手动重装
 ```
 

@@ -7,7 +7,7 @@ Host vpn name2
     User root
     Hostname xxx.xx.xx.xxx
     Port 22
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/vps_id_rsa
     ServerAliveInterval 60
     ServerAliveCountMax 3
     LocalForward 127.0.0.1:9200 127.0.0.1:9200

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/zhutou/.oh-my-zsh"
+export ZSH="/Users/lawlaw/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,5 +101,5 @@ export LC_ALL="en_US.UTF-8"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export TERM="xterm-256color"
-export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
-test -e /Users/zhutou/.iterm2_shell_integration.zsh && source /Users/zhutou/.iterm2_shell_integration.zsh || true
+# export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+
