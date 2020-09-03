@@ -6,6 +6,9 @@
 # 执行 brew bundle dump 备份命令 
 brew bundle dump --describe --force --file="~/Desktop/Brewfile"
 
+# diff
+code -d ~/Desktop/dotfiles/homebrew/Brewfile ~/Desktop/Brewfile
+
 # 参数说明 
 --describe：为列表中的命令行工具加上说明性文字。
 --force：直接覆盖之前生成的 Brewfile 文件。

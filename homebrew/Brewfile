@@ -1,16 +1,18 @@
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
+tap "homebrew/cask", "https://mirrors.ustc.edu.cn/homebrew-cask.git"
+tap "homebrew/core", "https://mirrors.ustc.edu.cn/homebrew-core.git"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Distributed revision control system
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Configurable static site generator
 brew "hugo"
-# Port scanning utility for large networks
-brew "nmap"
+# Interactive cheatsheet tool for the command-line
+brew "navi"
+# Platform built on V8 to build network applications
+brew "node"
 # Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
 # Terminal multiplexer

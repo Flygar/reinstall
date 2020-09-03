@@ -31,7 +31,7 @@
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set wildmenu          "命令模式下按Tab键，自动补全提示
-set paste             "粘贴模式
+"set paste             "粘贴模式
 set nu                "显示行号    
 set relativenumber    "显式相对行号，便于计算上下跳的行数
 

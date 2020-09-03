@@ -3,8 +3,8 @@ https://github.com/gpakosz/.tmux
 
 ## 备份
 ```sh
-# 对比文件
-code -d ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/.tmux.conf.local 
+# diff
+code -d ~/Desktop/dotfiles/tmux/.tmux.conf.local ~/.tmux.conf.local
 
 # 备份
 cp ~/.tmux.conf.local ~/Desktop/dotfiles/tmux/

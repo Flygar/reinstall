@@ -3,8 +3,8 @@ https://github.com/amix/vimrc
 
 ## 备份
 ```sh
-# 备份前对比文件区别
-code -d ~/Desktop/dotfiles/vim/ ~/.vimrc
+# diff
+code -d ~/Desktop/dotfiles/vim/.vimrc ~/.vimrc
 
 # 备份：将当前使用的配置备份到dotfiles
 cp ~/.vimrc ~/Desktop/dotfiles/vim/.vimrc

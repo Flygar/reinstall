@@ -295,6 +295,6 @@ set -g history-limit 10000
 # move status line to top
 #set -g status-position top
 
-# 鼠标模式每次滚轮的行数,默认5行滑动起来不太流畅   
-# bind -Tcopy-mode WheelUpPane send -N1 -X scroll-up 
-# bind -Tcopy-mode WheelDownPane send -N1 -X scroll-down 
+# 鼠标模式每次滚轮的行数,默认5行滑动起来不太流畅,这里设置为1行
+bind -Tcopy-mode WheelUpPane send -N1 -X scroll-up 
+bind -Tcopy-mode WheelDownPane send -N1 -X scroll-down 

@@ -11,6 +11,9 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 ```sh
 cd dotfiles
 
+# diff
+code -d ~/Desktop/dotfiles/oh-my-zsh/.zshrc ~/.zshrc
+
 # 备份
 cp ~/.zshrc oh-my-zsh/.zshrc
 
@@ -31,6 +34,9 @@ git clone https://github.com/paulirish/git-open.git ${ZSH_CUSTOM:-~/.oh-my-zsh/c
 ## zsh-theme
 ```sh
 cd dotfiles
+
+# diff
+code -d ~/Desktop/dotfiles/oh-my-zsh/steeef.zsh-theme ~/.oh-my-zsh/themes/steeef.zsh-theme
 
 # 备份
 cp ~/.oh-my-zsh/themes/steeef.zsh-theme oh-my-zsh/steeef.zsh-theme
