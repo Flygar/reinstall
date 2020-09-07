@@ -49,7 +49,7 @@
   - Night Shift
 
 ## App
-### [Setapp](https://setapp.com/)
+### [Setapp](https://setapp.com/222)
 - CleanShot X
 - BetterZip
 - Movist Pro
