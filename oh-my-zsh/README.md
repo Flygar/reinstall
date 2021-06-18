@@ -18,11 +18,7 @@ code -d ~/Desktop/dotfiles/oh-my-zsh/.zshrc ~/.zshrc
 cp ~/.zshrc oh-my-zsh/.zshrc
 
 # 还原
-<<<<<<< HEAD
 cp ~/Desktop/dotfiles/oh-my-zsh/.zshrc ~/.zshrc
-=======
-cp oh-my-zsh/.zshrc ~/.zshrc
->>>>>>> origin/master
 
 # 插件：zsh-autosuggestions
 # GitHub：https://github.com/zsh-users/zsh-autosuggestions
@@ -46,9 +42,5 @@ code -d ~/Desktop/dotfiles/oh-my-zsh/steeef.zsh-theme ~/.oh-my-zsh/themes/steeef
 cp ~/.oh-my-zsh/themes/steeef.zsh-theme oh-my-zsh/steeef.zsh-theme
 
 # 还原
-<<<<<<< HEAD
 cp ~/Desktop/dotfiles/oh-my-zsh/steeef.zsh-theme ~/.oh-my-zsh/themes/steeef.zsh-theme
-=======
-cp oh-my-zsh/steeef.zsh-theme ~/.oh-my-zsh/themes/steeef.zsh-theme
->>>>>>> origin/master
 ```
